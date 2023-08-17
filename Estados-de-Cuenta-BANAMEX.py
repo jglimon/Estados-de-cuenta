@@ -4,6 +4,15 @@ import pdfplumber
 import csv
 from io import BytesIO, StringIO
 
+st.markdown("""
+<style>
+.css-1vbd788 ea3mdgi2
+{
+    visibility: hidden;
+}
+</style>
+""", unsafe_allow_html=True)
+
 def extract_pdf_to_csv(pdf_file):
     # Open the PDF
     with pdfplumber.open(pdf_file) as pdf:
