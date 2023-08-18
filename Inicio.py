@@ -1,6 +1,13 @@
-import streamlit as st
+st.set_page_config(
+    page_title="IEM-Consultoria",
+    page_icon="random",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
 
 st.title('Convertidor de Estados de Cuenta PDF a Excel')
+st.markdown("---")
 
 # Python logo image
 
